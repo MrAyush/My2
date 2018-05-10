@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        style="@style/Temp"
+        android:inputType="phone"
+        android:id="@+id/et1"
+        android:hint="@string/hint_text" />
+    <Button
+        style="@style/Temp"
+        android:id="@+id/btn1"
+        android:text="@string/bt1" />
+    <Button
+        style="@style/Temp"
+        android:id="@+id/btn2"
+        android:text="@string/bt2" />
+    <Button
+        style="@style/Temp"
+        android:id="@+id/btn3"
+        android:text="@string/bt3" />
+    <EditText
+        style="@style/Temp"
+        android:inputType="text"
+        android:id="@+id/et2"
+        android:hint="@string/name_text" />
+    <EditText
+        style="@style/Temp"
+        android:inputType="text"
+        android:id="@+id/et3"
+        android:hint="@string/like_text" />
+    <Button
+        style="@style/Temp"
+        android:id="@+id/btn4"
+        android:text="@string/bt4" />
+    <Button
+        style="@style/Temp"
+        android:id="@+id/btn5"
+        android:text="@string/bt5"/>
+    <View
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

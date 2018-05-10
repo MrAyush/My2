@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My2</string>
+    <string name="bt1">Dial</string>
+    <string name="bt2">Browser</string>
+    <string name="bt3">Images</string>
+    <string name="bt4">welcome</string>
+    <string name="bt5">Open a App</string>
+    <string name="hint_text">Enter a number</string>
+    <string name="name_text">Enter your name</string>
+    <string name="like_text">what you like?</string>
+    <string name="back_text">Go back</string>
+</resources>
